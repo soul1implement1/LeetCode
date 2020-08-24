@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="add myLeetCode" />
+    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="add LeetCode">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/CountingBits338.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/QueueReconstructionByHeight406.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/j/easy/MergeTwoBinaryTrees617.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/j/easy/MergeTwoBinaryTrees617.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/j/easy/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/j/easy/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,13 +69,39 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.MergeTwoBinaryTrees617">
+  <component name="RunManager" selected="Application.QueueReconstructionByHeight406">
+    <configuration name="CountingBits338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.CountingBits338" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeTwoBinaryTrees617" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.j.easy.MergeTwoBinaryTrees617" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.j.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueReconstructionByHeight406" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.QueueReconstructionByHeight406" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.j.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,6 +118,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueReconstructionByHeight406" />
+        <item itemvalue="Application.CountingBits338" />
         <item itemvalue="Application.MergeTwoBinaryTrees617" />
         <item itemvalue="Application.test" />
       </list>
@@ -102,6 +139,7 @@
   </component>
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -111,7 +149,9 @@
       <option name="presentableId" value="Default" />
       <updated>1597633582812</updated>
       <workItem from="1597633586134" duration="18867000" />
-      <workItem from="1597712602393" duration="12633000" />
+      <workItem from="1597712602393" duration="13020000" />
+      <workItem from="1597984270003" duration="15582000" />
+      <workItem from="1598230573334" duration="12992000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <created>1597731856465</created>
@@ -127,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597732491645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add myLeetCode">
+      <created>1597732864041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597732864041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +185,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -159,10 +208,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="440" y="246" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.40.1366.728@0.40.1366.728" timestamp="1597731347523" />
-    <state x="109" y="40" key="CommitChangelistDialog2" timestamp="1597732598894">
+    <state x="109" y="40" key="CommitChangelistDialog2" timestamp="1598254456428">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="109" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1597732598894" />
+    <state x="109" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1598254456428" />
     <state x="463" y="145" key="FileChooserDialogImpl" timestamp="1597732034390">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -175,22 +224,38 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="288" y="107" key="Github.UntrackedFilesDialog/0.40.1366.728@0.40.1366.728" timestamp="1597732387591" />
-    <state width="1323" height="259" key="GridCell.Tab.0.bottom" timestamp="1597731294735">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1598253709310">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1597731294735" />
-    <state width="1323" height="259" key="GridCell.Tab.0.center" timestamp="1597731294735">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598253709310" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1598253709310">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1597731294735" />
-    <state width="1323" height="259" key="GridCell.Tab.0.left" timestamp="1597731294734">
+    <state width="1323" height="215" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1598253709310" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1598253709310">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1597731294734" />
-    <state width="1323" height="259" key="GridCell.Tab.0.right" timestamp="1597731294735">
+    <state width="1323" height="215" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1598253709310" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1598253709310">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="259" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1597731294735" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1598253709310" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598248388969">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598248388969" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1598248388969">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1598248388969" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1598248388968">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1598248388968" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1598248388969">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1598248388969" />
     <state x="163" y="40" key="SettingsEditor" timestamp="1597732663736">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -199,10 +264,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="523" y="138" key="VCS.ChangeListViewerDialog/0.40.1366.728@0.40.1366.728" timestamp="1597731445380" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1597732841433">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1597732876772">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1597732841433" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1597732876772" />
     <state x="234" y="140" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597719708510">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
