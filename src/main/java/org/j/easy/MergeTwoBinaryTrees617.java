@@ -1,11 +1,13 @@
 package org.j.easy;
 
+import org.j.TreeNode;
+
 import java.util.*;
 
 /**
  * @author 冯玖霖
  * @version 1.0
- * @description 617-合并两个二叉树；给定两棵二叉树，想象一下，当您将其中一棵树覆盖另一棵树时，两棵树的某些节点是重叠的，而其他树却没有。
+ * @description 617合并两个二叉树；给定两棵二叉树，想象一下，当您将其中一棵树覆盖另一棵树时，两棵树的某些节点是重叠的，而其他树却没有。
  * 您需要将它们合并到新的二叉树中。合并规则是，如果两个节点重叠，则将节点值加起来作为合并节点的新值。否则，NOT空节点将用作新树的节点。
  * @date 2020-08-17 11:20
  **/
@@ -253,7 +255,7 @@ public class MergeTwoBinaryTrees617 {
         }
     }
 
-    private void closeScanner() {
+    public  void closeScanner() {
         scanner.close();
     }
 
@@ -277,27 +279,14 @@ public class MergeTwoBinaryTrees617 {
 
     }
 
+ //    // 解法2
+ // if (t1 == null && t2 == null) return null;
+ //
+ //    int val = (t1 == null ? 0 : t1.val) + (t2 == null ? 0 : t2.val);
+ //    TreeNode newNode = new TreeNode(val);
+ //
+ //    newNode.left = mergeTrees(t1 == null ? null : t1.left, t2 == null ? null : t2.left);
+ //    newNode.right = mergeTrees(t1 == null ? null : t1.right, t2 == null ? null : t2.right);
+ //
+ //        return newNode;
 }
-
-/**
- * 定义二叉树节点
- */
-class TreeNode {
-    int val;
-    TreeNode left = null;
-    TreeNode right = null;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
-        this.val = val;
-    }
-
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-    }
-}
-
