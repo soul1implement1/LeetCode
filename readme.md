@@ -14,3 +14,6 @@ MaximumDepthOfBinaryTree104
 
 Permutations46
 
+BinaryTreeInorderTraversal94
+
+DailyTemperatures739

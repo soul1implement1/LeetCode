@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="add LeetCode 338&amp;406 all-medium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/easy/MaximumDepthOfBinaryTree104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/Permutations46.java" afterDir="false" />
+    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/BinaryTreeInorderTraversal94.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/DailyTemperatures739.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/j/easy/MergeTwoBinaryTrees617.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/j/easy/MergeTwoBinaryTrees617.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/j/easy/MergeTwoBinaryTrees617.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/j/easy/MergeTwoBinaryTrees617.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/j/easy/TreeNode.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1gCzuI3LURLgCJUEOjRdoKM7D0N" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -69,9 +68,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager" selected="Application.Permutations46">
+  <component name="RunManager" selected="Application.DailyTemperatures739">
     <configuration name="CountingBits338" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.j.medium.CountingBits338" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyTemperatures739" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.DailyTemperatures739" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -122,20 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test" />
-      <module name="leetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DailyTemperatures739" />
         <item itemvalue="Application.Permutations46" />
         <item itemvalue="Application.QueueReconstructionByHeight406" />
         <item itemvalue="Application.CountingBits338" />
         <item itemvalue="Application.MergeTwoBinaryTrees617" />
-        <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +171,7 @@
       <workItem from="1597712602393" duration="13020000" />
       <workItem from="1597984270003" duration="15582000" />
       <workItem from="1598230573334" duration="21976000" />
-      <workItem from="1598317594889" duration="8251000" />
+      <workItem from="1598317594889" duration="22135000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <created>1597731856465</created>
@@ -196,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598254538813</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add LeetCode 104&amp;46 easy-medium">
+      <created>1598326193599</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598326193599</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,7 +232,8 @@
     <MESSAGE value="add readme.md" />
     <MESSAGE value="add myLeetCode" />
     <MESSAGE value="add LeetCode 338&amp;406 all-medium" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 338&amp;406 all-medium" />
+    <MESSAGE value="add LeetCode 104&amp;46 easy-medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 104&amp;46 easy-medium" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="62" key="#Project_Structure" timestamp="1597718725428">
@@ -231,10 +244,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="440" y="246" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.40.1366.728@0.40.1366.728" timestamp="1597731347523" />
-    <state x="109" y="40" key="CommitChangelistDialog2" timestamp="1598254639319">
+    <state x="40" y="40" key="CommitChangelistDialog2" timestamp="1598344848483">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="109" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1598254639319" />
+    <state x="40" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1598344848483" />
     <state x="463" y="145" key="FileChooserDialogImpl" timestamp="1597732034390">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -247,38 +260,38 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="288" y="107" key="Github.UntrackedFilesDialog/0.40.1366.728@0.40.1366.728" timestamp="1597732387591" />
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1598325960410">
+    <state width="1323" height="129" key="GridCell.Tab.0.bottom" timestamp="1598344825270">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598325960410" />
-    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1598325960410">
+    <state width="1323" height="129" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598344825270" />
+    <state width="1323" height="129" key="GridCell.Tab.0.center" timestamp="1598344825269">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1598325960410" />
-    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1598325960409">
+    <state width="1323" height="129" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1598344825269" />
+    <state width="1323" height="129" key="GridCell.Tab.0.left" timestamp="1598344825269">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1598325960409" />
-    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1598325960410">
+    <state width="1323" height="129" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1598344825269" />
+    <state width="1323" height="129" key="GridCell.Tab.0.right" timestamp="1598344825270">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="236" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1598325960410" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598263473293">
+    <state width="1323" height="129" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1598344825270" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598338885776">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598263473293" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1598263473293">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598338885776" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1598338885776">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1598263473293" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1598263473292">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.40.1366.728@0.40.1366.728" timestamp="1598338885776" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1598338885775">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1598263473292" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1598263473293">
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.40.1366.728@0.40.1366.728" timestamp="1598338885775" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1598338885776">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1598263473293" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.40.1366.728@0.40.1366.728" timestamp="1598338885776" />
     <state x="163" y="40" key="SettingsEditor" timestamp="1598261713754">
       <screen x="0" y="40" width="1366" height="728" />
     </state>

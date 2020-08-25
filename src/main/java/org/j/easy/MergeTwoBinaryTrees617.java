@@ -126,7 +126,7 @@ public class MergeTwoBinaryTrees617 {
     }
 
     /**
-     * 先序保存完全二叉树；小了用LinkedList,大了使用文件
+     * 中序保存完全二叉树；小了用LinkedList,大了使用文件
      *
      * @param root
      * @param list
