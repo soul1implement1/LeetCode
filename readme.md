@@ -17,3 +17,10 @@ Permutations46
 BinaryTreeInorderTraversal94
 
 DailyTemperatures739
+
+2020-8-27:
+
+GenerateParentheses22
+
+ReverseLinkedList206
+
