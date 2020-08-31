@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class QueueReconstructionByHeight406 {
     public static int[][] reconstructQueue(int[][] people) {
         // 找最高的人,并且将k排序
-        Arrays.sort(people, (p1, p2) -> p1[0] == p2[0] ? p1[1] - p2[1] : p2[0] - p1[0]);
+        Arrays.sort(people, (p1, p2) -> p1[0] == p2[0] ? p1[1] -p1[1] : p2[0] - p1[0]);
 
         for (int i = 1; i < people.length; i++) {
             int index = people[i][1];

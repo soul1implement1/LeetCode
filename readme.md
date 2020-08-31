@@ -1,5 +1,6 @@
 ##### 我的leetCode题目解法集合
 有：
+
 2020-8-19:
 
 MergeTwoBinaryTrees617
@@ -23,4 +24,21 @@ DailyTemperatures739
 GenerateParentheses22
 
 ReverseLinkedList206
+
+2020-8-28:
+
+Subsets78
+
+SingleNumber136
+
+2020-8-31:
+
+InvertBinaryTree226
+
+TopKFrequentElements347
+
+PalindromicSubstrings647
+ 
+ 
+
 

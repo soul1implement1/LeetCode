@@ -5,7 +5,7 @@ import org.j.ListNode;
 /**
  * @author 冯玖霖
  * @version 1.0
- * @description 反向单向链表。
+ * @description 206反向单向链表。
  * @date 2020-08-27 16:38
  **/
 public class ReverseLinkedList206 {
