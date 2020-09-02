@@ -84,7 +84,7 @@ public class Permutations46 {
 
     public static void main(String[] args) {
         long st=System.currentTimeMillis();
-        List<List<Integer>> result = permute(new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9,10,11,12,14});
+        List<List<Integer>> result = permute(new int[]{1, 2, 3, 4, 5, 6, 7, 8});
         long ed=System.currentTimeMillis();
         System.out.println(ed-st);
         // List<List<Integer>> result = permute(new int[]{1, 2, 3, 4});
