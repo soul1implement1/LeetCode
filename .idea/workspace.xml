@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/KthSmallestElementIn_a_BST230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/ProductOfArrayExceptSelf238.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/easy/MajorityElement169.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/GroupAnagrams49.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/j/medium/PalindromicSubstrings647.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/PalindromicSubstrings647.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/j/medium/Permutations46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/Permutations46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/j/medium/Permutations46.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/j/medium/Permutations46.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +67,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.ProductOfArrayExceptSelf238">
+  <component name="RunManager" selected="Application.MajorityElement169">
+    <configuration name="GroupAnagrams49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.GroupAnagrams49" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KthSmallestElementIn_a_BST230" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.j.medium.KthSmallestElementIn_a_BST230" />
       <module name="leetCode" />
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromicSubstrings647" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.PalindromicSubstrings647" />
+    <configuration name="MajorityElement169" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.easy.MajorityElement169" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="PATTERN" value="org.j.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permutations46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.Permutations46" />
+    <configuration name="PalindromicSubstrings647" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.PalindromicSubstrings647" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -123,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopKFrequentElements347" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.TopKFrequentElements347" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.j.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MajorityElement169" />
+        <item itemvalue="Application.GroupAnagrams49" />
         <item itemvalue="Application.ProductOfArrayExceptSelf238" />
         <item itemvalue="Application.KthSmallestElementIn_a_BST230" />
         <item itemvalue="Application.PalindromicSubstrings647" />
-        <item itemvalue="Application.Permutations46" />
-        <item itemvalue="Application.TopKFrequentElements347" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +180,9 @@
       <workItem from="1598857945290" duration="714000" />
       <workItem from="1598858985889" duration="7000" />
       <workItem from="1598934840895" duration="15176000" />
-      <workItem from="1599008856508" duration="4083000" />
+      <workItem from="1599008856508" duration="9722000" />
+      <workItem from="1599095882859" duration="735000" />
+      <workItem from="1599101425722" duration="4102000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <created>1597731856465</created>
@@ -248,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598850424057</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add LeetCode 136-230&amp;238&amp;78 easy-medium">
+      <created>1599013380997</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1599013380998</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +288,8 @@
     <MESSAGE value="add LeetCode 94&amp;739 all-medium" />
     <MESSAGE value="add LeetCode 206&amp;22 easy-medium" />
     <MESSAGE value="add LeetCode 226&amp;347 easy-medium" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 226&amp;347 easy-medium" />
+    <MESSAGE value="add LeetCode 136-230&amp;238&amp;78 easy-medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 136-230&amp;238&amp;78 easy-medium" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="62" key="#Project_Structure" timestamp="1597718725428">
@@ -297,10 +304,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="440" y="246" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.40.1366.728@0.40.1366.728" timestamp="1597731347523" />
-    <state x="176" y="40" key="CommitChangelistDialog2" timestamp="1598850421748">
+    <state x="120" y="40" key="CommitChangelistDialog2" timestamp="1599108076337">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="176" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1598850421748" />
+    <state x="120" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1599108076337" />
     <state x="463" y="145" key="FileChooserDialogImpl" timestamp="1598858810436">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -313,22 +320,22 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="288" y="107" key="Github.UntrackedFilesDialog/0.40.1366.728@0.40.1366.728" timestamp="1597732387591" />
-    <state width="661" height="231" key="GridCell.Tab.0.bottom" timestamp="1598954562068">
+    <state width="661" height="231" key="GridCell.Tab.0.bottom" timestamp="1599108056816">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="231" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1598954562068" />
-    <state width="661" height="231" key="GridCell.Tab.0.center" timestamp="1598954562067">
+    <state width="661" height="231" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1599108056816" />
+    <state width="661" height="231" key="GridCell.Tab.0.center" timestamp="1599108056815">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="231" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1598954562067" />
-    <state width="661" height="231" key="GridCell.Tab.0.left" timestamp="1598954562067">
+    <state width="661" height="231" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1599108056815" />
+    <state width="661" height="231" key="GridCell.Tab.0.left" timestamp="1599108056815">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="231" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1598954562067" />
-    <state width="661" height="231" key="GridCell.Tab.0.right" timestamp="1598954562068">
+    <state width="661" height="231" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1599108056815" />
+    <state width="661" height="231" key="GridCell.Tab.0.right" timestamp="1599108056816">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="231" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1598954562068" />
+    <state width="661" height="231" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1599108056816" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598345273779">
       <screen x="0" y="40" width="1366" height="728" />
     </state>

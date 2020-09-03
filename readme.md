@@ -43,5 +43,13 @@ PalindromicSubstrings647
  
 KthSmallestElementIn_a_BST230
  
+## 2020-9-2:
+ 
 ProductOfArrayExceptSelf238
+
+GroupAnagrams49
+
+## 2020-9-3:
+
+ MajorityElement169
  
