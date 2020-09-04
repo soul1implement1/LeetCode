@@ -51,5 +51,11 @@ GroupAnagrams49
 
 ## 2020-9-3:
 
- MajorityElement169
+MajorityElement169
+ 
+## 2020-9-4:
+
+MoveZeroes283
+
+mysql_ReformatDepartmentTable1179 
  
