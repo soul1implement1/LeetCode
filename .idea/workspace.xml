@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="add LeetCode 169-49 easy-medium">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/easy/MoveZeroes283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/mysql/MysqlCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/mysql/ReformatDepartmentTable1179.java" afterDir="false" />
+    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/RotateImage48.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/mysql/BigCountries595.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/j/easy/MajorityElement169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/j/easy/MajorityElement169.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,13 +69,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.ReformatDepartmentTable1179">
-    <configuration name="GroupAnagrams49" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.GroupAnagrams49" />
+  <component name="RunManager" selected="Application.BigCountries595">
+    <configuration name="BigCountries595" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.mysql.BigCountries595" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="PATTERN" value="org.j.mysql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfArrayExceptSelf238" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.ProductOfArrayExceptSelf238" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.j.medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReformatDepartmentTable1179" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.j.mysql.ReformatDepartmentTable1179" />
       <module name="leetCode" />
@@ -136,13 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RotateImage48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.RotateImage48" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BigCountries595" />
+        <item itemvalue="Application.RotateImage48" />
         <item itemvalue="Application.ReformatDepartmentTable1179" />
         <item itemvalue="Application.MoveZeroes283" />
         <item itemvalue="Application.MajorityElement169" />
-        <item itemvalue="Application.GroupAnagrams49" />
-        <item itemvalue="Application.ProductOfArrayExceptSelf238" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +186,8 @@
       <workItem from="1599095882859" duration="735000" />
       <workItem from="1599101425722" duration="4209000" />
       <workItem from="1599113350381" duration="162000" />
-      <workItem from="1599203448242" duration="3557000" />
+      <workItem from="1599203448242" duration="4049000" />
+      <workItem from="1599441889541" duration="4889000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <created>1597731856465</created>
@@ -266,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599108118192</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add LeetCode 283-1179(MYSQL) easy-medium">
+      <created>1599207361831</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599207361832</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +309,8 @@
     <MESSAGE value="add LeetCode 226&amp;347 easy-medium" />
     <MESSAGE value="add LeetCode 136-230&amp;238&amp;78 easy-medium" />
     <MESSAGE value="add LeetCode 169-49 easy-medium" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 169-49 easy-medium" />
+    <MESSAGE value="add LeetCode 283-1179(MYSQL) easy-medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 283-1179(MYSQL) easy-medium" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="62" key="#Project_Structure" timestamp="1597718725428">
@@ -317,10 +325,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="440" y="246" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.40.1366.728@0.40.1366.728" timestamp="1597731347523" />
-    <state x="120" y="40" key="CommitChangelistDialog2" timestamp="1599203653762">
+    <state x="211" y="40" key="CommitChangelistDialog2" timestamp="1599207358006">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="120" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1599203653762" />
+    <state x="211" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1599207358006" />
     <state x="463" y="145" key="FileChooserDialogImpl" timestamp="1598858810436">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -333,22 +341,22 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="288" y="107" key="Github.UntrackedFilesDialog/0.40.1366.728@0.40.1366.728" timestamp="1597732387591" />
-    <state width="661" height="508" key="GridCell.Tab.0.bottom" timestamp="1599205816482">
+    <state width="661" height="151" key="GridCell.Tab.0.bottom" timestamp="1599448214153">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="508" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1599205816482" />
-    <state width="661" height="508" key="GridCell.Tab.0.center" timestamp="1599205816482">
+    <state width="661" height="151" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1599448214152" />
+    <state width="661" height="151" key="GridCell.Tab.0.center" timestamp="1599448214152">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="508" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1599205816482" />
-    <state width="661" height="508" key="GridCell.Tab.0.left" timestamp="1599205816481">
+    <state width="661" height="151" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1599448214152" />
+    <state width="661" height="151" key="GridCell.Tab.0.left" timestamp="1599448214152">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="508" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1599205816481" />
-    <state width="661" height="508" key="GridCell.Tab.0.right" timestamp="1599205816482">
+    <state width="661" height="151" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1599448214152" />
+    <state width="661" height="151" key="GridCell.Tab.0.right" timestamp="1599448214152">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="661" height="508" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1599205816482" />
+    <state width="661" height="151" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1599448214152" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598345273779">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -377,10 +385,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="523" y="138" key="VCS.ChangeListViewerDialog/0.40.1366.728@0.40.1366.728" timestamp="1597731445380" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1599108129800">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1599207451621">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1599108129800" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1599207451621" />
     <state x="234" y="140" width="897" height="606" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1597719708510">
       <screen x="0" y="40" width="1366" height="728" />
     </state>

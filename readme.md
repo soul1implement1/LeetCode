@@ -59,3 +59,9 @@ MoveZeroes283
 
 mysql_ReformatDepartmentTable1179 
  
+## 2020-9-7:
+
+ RotateImage48
+ 
+ BigCountries595
+ 
