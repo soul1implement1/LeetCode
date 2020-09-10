@@ -61,7 +61,15 @@ mysql_ReformatDepartmentTable1179
  
 ## 2020-9-7:
 
- RotateImage48
+RotateImage48
  
- BigCountries595
+BigCountries595
+ 
+ ## 2020-9-8:
+ 
+SwapSalary627
+
+## 2020-9-9:
+
+PartitionLabels763 
  

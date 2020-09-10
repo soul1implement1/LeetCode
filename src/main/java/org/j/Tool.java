@@ -1,5 +1,7 @@
 package org.j;
 
+import java.util.List;
+
 /**
  * @author 冯玖霖
  * @version 1.0
@@ -16,5 +18,25 @@ public class Tool {
             System.out.println();
         }
         System.out.println("-----------------------------");
+    }
+
+    public static void printList(List<Integer> list ) {
+        for (Object o:list) {
+            System.out.print(o+",");
+        }
+        System.out.println();
+    }
+
+    /**
+     * @paramType  List<List<Integer>>
+     * @param lists
+     */
+    public static void printListList(List<List<Integer>> lists){
+        for (List<Integer> list : lists) {
+            for (Integer integer : list) {
+                System.out.print(integer+",");
+            }
+            System.out.println();
+        }
     }
 }
