@@ -73,3 +73,12 @@ SwapSalary627
 
 PartitionLabels763 
  
+## 2020-9-14:
+
+FindAllNumbersDisappearedInArray448
+
+## 2020-9-15:
+
+FindTheDuplicateNumber278
+
+KthLargestElementInArray215

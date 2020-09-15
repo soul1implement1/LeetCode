@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="add LeetCode 39&amp;763-627(MYSQL)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/CombinationSum39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/PartitionLabels763.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/mysql/SwapSalary627.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="c35d1b48-304a-48a5-b802-4965628a4e1c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/easy/FindAllNumbersDisappearedInArray448.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/FindTheDuplicateNumber278.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/j/medium/KthLargestElementInArray215.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/j/Tool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/j/Tool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,20 +69,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Application.CombinationSum39">
-    <configuration name="BigCountries595" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.mysql.BigCountries595" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.j.mysql.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.KthLargestElementInArray215">
     <configuration name="CombinationSum39" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.j.medium.CombinationSum39" />
       <module name="leetCode" />
@@ -98,8 +83,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionLabels763" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.PartitionLabels763" />
+    <configuration name="FindAllNumbersDisappearedInArray448" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.easy.FindAllNumbersDisappearedInArray448" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.j.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTheDuplicateNumber278" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.FindTheDuplicateNumber278" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
@@ -111,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReformatDepartmentTable1179" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.mysql.ReformatDepartmentTable1179" />
+    <configuration name="KthLargestElementInArray215" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.medium.KthLargestElementInArray215" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.j.mysql.*" />
+          <option name="PATTERN" value="org.j.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage48" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.j.medium.RotateImage48" />
+    <configuration name="SingleNumber136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.j.easy.SingleNumber136" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.j.medium.*" />
+          <option name="PATTERN" value="org.j.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KthLargestElementInArray215" />
+        <item itemvalue="Application.FindTheDuplicateNumber278" />
+        <item itemvalue="Application.SingleNumber136" />
+        <item itemvalue="Application.FindAllNumbersDisappearedInArray448" />
         <item itemvalue="Application.CombinationSum39" />
-        <item itemvalue="Application.PartitionLabels763" />
-        <item itemvalue="Application.BigCountries595" />
-        <item itemvalue="Application.RotateImage48" />
-        <item itemvalue="Application.ReformatDepartmentTable1179" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +192,9 @@
       <workItem from="1599555891427" duration="701000" />
       <workItem from="1599558149884" duration="76000" />
       <workItem from="1599614984889" duration="12238000" />
-      <workItem from="1599703592335" duration="5390000" />
+      <workItem from="1599703592335" duration="6379000" />
+      <workItem from="1600047315529" duration="4163000" />
+      <workItem from="1600150246872" duration="7837000" />
     </task>
     <task id="LOCAL-00001" summary="add readme.md">
       <created>1597731856465</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599448889367</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add LeetCode 39&amp;763-627(MYSQL) medium">
+      <created>1599711232543</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599711232543</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +332,8 @@
     <MESSAGE value="add LeetCode 169-49 easy-medium" />
     <MESSAGE value="add LeetCode 283-1179(MYSQL) easy-medium" />
     <MESSAGE value="add LeetCode 48-595(MYSQL) easy" />
-    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 48-595(MYSQL) easy" />
+    <MESSAGE value="add LeetCode 39&amp;763-627(MYSQL) medium" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LeetCode 39&amp;763-627(MYSQL) medium" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="62" key="#Project_Structure" timestamp="1597718725428">
@@ -340,10 +348,10 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="440" y="246" key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent/0.40.1366.728@0.40.1366.728" timestamp="1597731347523" />
-    <state x="211" y="40" key="CommitChangelistDialog2" timestamp="1599711169296">
+    <state x="263" y="40" key="CommitChangelistDialog2" timestamp="1599711229259">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="211" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1599711169296" />
+    <state x="263" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1599711229259" />
     <state x="463" y="145" key="FileChooserDialogImpl" timestamp="1598858810436">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
@@ -356,22 +364,22 @@
       <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="288" y="107" key="Github.UntrackedFilesDialog/0.40.1366.728@0.40.1366.728" timestamp="1597732387591" />
-    <state width="1323" height="187" key="GridCell.Tab.0.bottom" timestamp="1599711171470">
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom" timestamp="1600158286994">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1599711171470" />
-    <state width="1323" height="187" key="GridCell.Tab.0.center" timestamp="1599711171470">
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.40.1366.728@0.40.1366.728" timestamp="1600158286994" />
+    <state width="1323" height="187" key="GridCell.Tab.0.center" timestamp="1600158286993">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1599711171470" />
-    <state width="1323" height="187" key="GridCell.Tab.0.left" timestamp="1599711171469">
+    <state width="1323" height="187" key="GridCell.Tab.0.center/0.40.1366.728@0.40.1366.728" timestamp="1600158286993" />
+    <state width="1323" height="187" key="GridCell.Tab.0.left" timestamp="1600158286992">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1599711171469" />
-    <state width="1323" height="187" key="GridCell.Tab.0.right" timestamp="1599711171470">
+    <state width="1323" height="187" key="GridCell.Tab.0.left/0.40.1366.728@0.40.1366.728" timestamp="1600158286992" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right" timestamp="1600158286993">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state width="1323" height="187" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1599711171470" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right/0.40.1366.728@0.40.1366.728" timestamp="1600158286993" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598345273779">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
